@@ -1,7 +1,50 @@
-.loading{
-  height: 40px;
-  text-align: center;
-  div {
-    display: inline-block;
-  }
+.zen{
+	margin-top: 10%;
+	.loading{
+	  height: 40px;
+	  text-align: center;
+	  div {
+	    display: inline-block;
+	  }
+	}
+
+	.clock{
+		font-size: 15px !important;
+		border: solid 0px !important;
+	    margin-right: 21px;
+	}
+
+	.temp1{
+		font-size: 261px;
+	    font-style: initial;
+	    font-family: cursive;
+    }
+	.c88{
+		font-size: 15px !important;
+		border: solid 0px !important;
+		margin-right: 11px;
+	}
+	.Manipulatorfooter{
+		display: flex;
+	    position: fixed;
+	    width: 100%;
+	    bottom: 0px;
+	    margin-left: -1.2%;
+		.column {
+		  padding: 14px 0px;
+		  text-align: center;
+		  -ms-flex-positive: 1;
+		  flex-grow: 1;
+		  background-color: azure;
+		  font-size: 20px;
+		  border-right: solid 1px #d7eef5;
+		}
+		a {
+		  border-bottom: 5px solid azure;
+		  text-decoration:none;
+		}
+		.footerClock{
+		  width: 8%;
+		}
+	}
 }

@@ -1,15 +1,18 @@
-import { connect } from 'react-redux'
-import { fetchZen, clearZen } from './../modules/zen'
+import {
+	connect
+} from 'react-redux'
+import {
+	fetchZen
+} from './../modules/zen'
 
 import Zen from '../components/Zen'
 
 const mapDispatchtoProps = {
-  fetchZen,
-  clearZen
+	fetchZen
 }
 
 const mapStateToProps = (state) => ({
-  zen: state.zen
+	zen: state.zen
 })
 
 export default connect(mapStateToProps, mapDispatchtoProps)(Zen)
